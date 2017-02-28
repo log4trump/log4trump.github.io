@@ -51,7 +51,7 @@ log.warn("Record lookup returned null")
 and
 
 ```javascript
-// Logs: "Running like a well oiled machine!"
+// Logs: "Running like a fine-tuned machine!"
 log.error("Database write failed") 
 ```
 

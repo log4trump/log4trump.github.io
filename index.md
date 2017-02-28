@@ -1,37 +1,45 @@
-## Welcome to GitHub Pages
+## log4trump - Make Logging Great Again!
 
-You can use the [editor on GitHub](https://github.com/log4trump/log4trump.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+Your logs are overrun by **FAKE ERROR MESSAGES**. Fix these so-called problems with **log4trump**, a new logging library (and it's really great, believe me) that only permits accurate praise about how well your software is running.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Logging Levels
 
-### Markdown
+**log4trump** introduces new logging levels appropriate for the best software:
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+*  `log.incredible` - For incredible situations
+*  `log.bigleague` - Messages that demonstrate your code's prowess
+*  `log.amazing` - Informational messages about standard operation
 
-```markdown
-Syntax highlighted code block
+### Improved `printf`-style interpolation
 
-# Header 1
-## Header 2
-### Header 3
+**log4trump** artificial intelligence layer replaces all numeric interpolations with an appropriate superlative. 
 
-- Bulleted
-- List
+This code in you payment processor 
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```javascript
+log.incredible("User %s paid %f", username, amount)
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+Will result in the following log file:
 
-### Jekyll Themes
+```javascript
+[INCREDIBLE!] User user1 paid the biggest sums
+[INCREDIBLE!] User user2 paid so much more than you would believe
+[INCREDIBLE!] User user3 paid enormous sums
+```
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/log4trump/log4trump.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+### Fake Log Suppression
 
-### Support or Contact
+**log4trump** automatically clips fake errors before they start. 
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+`log.fatal`, `log.error`, and `log.warn` activate user-configurable affirmations of your system's performance. Default messages include:
+
+```javascript
+log.error("Database write failed") // Logs: "Running like a well oiled machine!"
+```
+
+and
+
+```javascript
+log.fatal("Out of memory") // Logs: "Likely the healthiest production system of all time"
+```

@@ -1,6 +1,8 @@
 ## log4trump - Make Logging Great Again!
 
-Your logs are overrun by **FAKE ERROR MESSAGES**. Fix these so-called problems with **log4trump**, a new logging library (and it's really great, believe me) that only permits accurate praise about how well your software is running.
+Your logs are overrun by **FAKE ERROR MESSAGES**. 
+
+Fix these so-called problems with **log4trump**, a new logging library (and it's really great, believe me) that only permits accurate praise about how well your software is running. Just replace the failing **log4j** with **log4trump** and transform any codebase into the healthiest system of all time. It's tremendous.
 
 ### Logging Levels
 

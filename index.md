@@ -32,16 +32,26 @@ Will result in the following log file:
 
 **log4trump** automatically clips fake errors before they start. 
 
-`log.fatal`, `log.error`, and `log.warn` activate user-configurable affirmations of your system's performance. Default messages include:
+`log.fatal`, `log.error`, and `log.warn` activate user-configurable affirmations of your system's performance. 
+
+Default messages include:
+
+```javascript
+// Logs: "Likely the healthiest production system of all time"
+log.fatal("Out of memory") 
+```
+
+and
+
+```javascript
+// Logs: "You're about to win so much you'll get tired of winning!"
+log.warn("Record lookup returned null") 
+```
+
+and
 
 ```javascript
 // Logs: "Running like a well oiled machine!"
 log.error("Database write failed") 
 ```
 
-and
-
-```javascript
-// Logs: "Likely the healthiest production system of all time"
-log.fatal("Out of memory") 
-```

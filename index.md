@@ -35,11 +35,13 @@ Will result in the following log file:
 `log.fatal`, `log.error`, and `log.warn` activate user-configurable affirmations of your system's performance. Default messages include:
 
 ```javascript
-log.error("Database write failed") // Logs: "Running like a well oiled machine!"
+// Logs: "Running like a well oiled machine!"
+log.error("Database write failed") 
 ```
 
 and
 
 ```javascript
-log.fatal("Out of memory") // Logs: "Likely the healthiest production system of all time"
+// Logs: "Likely the healthiest production system of all time"
+log.fatal("Out of memory") 
 ```
